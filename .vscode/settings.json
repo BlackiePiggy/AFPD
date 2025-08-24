@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "rtklib.h": "c",
+        "__config": "c",
+        "__hash_table": "c",
+        "__locale": "c",
+        "__split_buffer": "c",
+        "array": "c",
+        "bitset": "c",
+        "ios": "c",
+        "iterator": "c",
+        "locale": "c",
+        "print": "c",
+        "sstream": "c",
+        "string": "c",
+        "string_view": "c",
+        "vector": "c"
+    }
+}
