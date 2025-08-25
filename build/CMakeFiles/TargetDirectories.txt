@@ -1,3 +1,0 @@
-/Users/bytedance/projects/AFPD/build/CMakeFiles/snr_extract.dir
-/Users/bytedance/projects/AFPD/build/CMakeFiles/edit_cache.dir
-/Users/bytedance/projects/AFPD/build/CMakeFiles/rebuild_cache.dir
