@@ -1,3 +1,6 @@
 [submodule "SFPD"]
 	path = SFPD
 	url = git@github.com:BlackiePiggy/SFPD.git
+[submodule "BDS_FP_plot"]
+	path = BDS_FP_plot
+	url = git@github.com:BlackiePiggy/BDS_FP_plot.git
