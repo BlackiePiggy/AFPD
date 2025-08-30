@@ -2,14 +2,14 @@
 #include "log.h"
 #include "utils.h"
 #include "rnx_extract.h"
-
 #include <iostream>
 #include <vector>
 #include <unordered_map>
 
-int main() {
-    // 计时开始
 
+int main() {
+    // 记录开始时间
+    auto start_time = std::chrono::high_resolution_clock::now();
 
     // 1. 初始日志（当前目录）
     log_open("snr_extract.log");
@@ -76,5 +76,10 @@ int main() {
 
     LOG_INFO("=== snr_extract done ===");
     log_close();
+
+    // 记录结束时间
+    auto end_time = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::seconds>(end_time - start_time);
+    std::cout << "All done in " << duration.count() << " seconds.\n";
     return 0;
 }
