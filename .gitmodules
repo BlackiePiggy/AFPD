@@ -1,0 +1,3 @@
+[submodule "SFPD"]
+	path = SFPD
+	url = git@github.com:BlackiePiggy/SFPD.git
